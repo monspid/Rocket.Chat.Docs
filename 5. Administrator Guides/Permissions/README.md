@@ -27,17 +27,18 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 | bulk-register-user |
 | create-c | Permission to create a public channel.
 | create-p | Permission to create a private group.
-| delete-c |
-| delete-d |
+| delete-c | Permission to delete a public channel.
+| delete-d | Permission to delete a direct room.
 | delete-message | Permission to delete a message within a room.  If this permission is assigned then hold your mouse over the message until you see a gear appear.  Click the gear then click the trash can to remove the message from the conversation.
-| delete-p |
-| delete-user |
+| delete-p | Permission to create a private group.
+| delete-user | Permission to delete users.
 | edit-message | Permission to edit a message.  If this permission is assigned then hold your mouse over the message until you see a gear appear.  Click the gear then click the pencil icon to edit the message.
 | edit-other-user-active-status | Accessible from Administration -> Users module.  Permission to enable or disable other accounts.
 | edit-other-user-info | Accessible from Administration -> Users module.  Permission to change other user's name, username or email address.
 | edit-other-user-password | Accessible from Administration -> Users module.  Permission to modify other user's passwords.  Requires edit-other-user-info permission.
 | edit-privileged-setting |
 | edit-room | Permission to edit a room's name, topic, type (private or public status) and status (active or archived).  This menu is visible by clicking the INFO icon on the top right hand corner of the screen while inside a room.
+|join-without-join-code| Allow to join a room without join code|
 | mail-messages |
 | manage-assets |
 | manage-integrations |
